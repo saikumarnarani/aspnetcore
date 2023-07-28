@@ -8,7 +8,7 @@ This document contains information regarding API baseline files and how to work 
 ## Add baseline files for new projects
 
 When creating a new implementation (i.e. src) project, it's necessary to manually add API baseline files since API baseline are enabled by default. If the project is a non-shipping or test only project, add `<AddPublicApiAnalyzers>false</AddPublicApiAnalyzers>` to the project to disable these checks. To add baseline files to the project:
-my name is saikumar
+
 
 1. `cp .\eng\PublicAPI.empty.txt {new folder}\PublicAPI.Shipped.txt`
 1. `cp .\eng\PublicAPI.empty.txt {new folder}\PublicAPI.Unshipped.txt`
